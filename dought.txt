@@ -1,0 +1,8 @@
+1.color inherit (navbar section)
+2.min-height:100vh (hero section)
+3.max-width:800px
+4.display block(programs)
+5.flex-basis:31% (programs)
+6.  background: rgba(0, 15, 152, 0.3)(programs after hover)
+
+
