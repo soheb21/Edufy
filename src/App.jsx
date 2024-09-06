@@ -4,6 +4,7 @@ import Campus from './components/Campus/Campus'
 import Hero from './components/Hero/Hero'
 import Navbar from './components/Navbar/Navbar'
 import Programs from './components/Programs/Programs'
+import Testimonials from './components/Testimonials/Testimonials'
 import Title from './components/Title/Title'
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
         <Title title={'Gallery'} sub_title={'Campus Photos'} />
         <Campus />
         <Title title={'TESTIMONIALS'} sub_title={'What Student Says'} />
+        <Testimonials />
+        <Title title={'Contact us'} sub_title={'Get in Touch'} />
+
 
 
       </div>
