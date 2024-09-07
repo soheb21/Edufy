@@ -1,6 +1,7 @@
 import './App.css'
 import About from './components/About/About'
 import Campus from './components/Campus/Campus'
+import Contact from './components/Contact/Contact'
 import Hero from './components/Hero/Hero'
 import Navbar from './components/Navbar/Navbar'
 import Programs from './components/Programs/Programs'
@@ -22,6 +23,7 @@ function App() {
         <Title title={'TESTIMONIALS'} sub_title={'What Student Says'} />
         <Testimonials />
         <Title title={'Contact us'} sub_title={'Get in Touch'} />
+        <Contact />
 
 
 
