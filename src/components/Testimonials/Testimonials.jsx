@@ -15,7 +15,6 @@ const Testimonials = () => {
             tx -= 25;
         }
         slider.current.style.transform = `translateX(${tx}%)`
-        console.log(tx)
 
     }
     const slidebackward = () => {
@@ -23,7 +22,6 @@ const Testimonials = () => {
             tx += 25;
         }
         slider.current.style.transform = `translateX(${tx}%)`
-        console.log(tx)
 
     }
     return (

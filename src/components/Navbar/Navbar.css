@@ -14,7 +14,7 @@ nav {
 .logo {
   width: 180px;
 }
-ul li {
+nav ul li {
   display: inline-block;
   list-style: none;
   margin: 5px 20px;
@@ -23,4 +23,48 @@ ul li {
 .dark-nav {
   background-color: #212ea0;
   transition: 0.2s;
+}
+.menu_icon {
+  display: none;
+}
+
+@media (max-width: 948px) {
+  .logo {
+    width: 140px;
+    margin-top: 10px;
+  }
+  nav ul li {
+    margin: 10px 15px;
+  }
+}
+
+@media (max-width: 840px) {
+  .menu_icon {
+    display: block;
+    width: 30px;
+    margin-top: 10px;
+  }
+  nav {
+    padding: 15px 0;
+  }
+
+  nav ul {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    z-index: -1;
+    padding-top: 70px;
+    transition: 0.5s;
+    background-color: #212ea0;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 25px 40px;
+  }
+  .toggle-menu {
+    right: -100%;
+  }
 }

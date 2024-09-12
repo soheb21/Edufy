@@ -39,3 +39,11 @@ a {
   background-color: #212ea0;
   color: #fff;
 }
+@media (max-width: 1073px) {
+  .btn {
+    padding: 7px 22px;
+  }
+  .container {
+    padding: 0 5%;
+  }
+}

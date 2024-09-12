@@ -55,3 +55,8 @@
   font-size: 1rem;
   font-weight: 400;
 }
+@media (max-wdith: 650px) {
+  .slider ul li {
+    width: 50%;
+  }
+}

@@ -49,5 +49,17 @@ textarea {
 .contact-col span {
   display: block;
   margin: 20px 0;
-  
+}
+
+@media (max-width: 560px) {
+  .contact {
+    flex-direction: column;
+  }
+  .contact-col {
+    flex-basis: 100%;
+  }
+  .contact-col form input,
+  textarea {
+    padding: 10px;
+  }
 }
